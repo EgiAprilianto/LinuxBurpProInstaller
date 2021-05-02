@@ -12,7 +12,7 @@ fi
 
 echo "[+] Downloading Burp Suite Professional"
 
-wget -q --show-progress -P '/opt' 'http://telury.tech/uploads/BurpSuiteProfessional.tar.gz'
+wget -q --show-progress -P '/opt' 'https://telury.tech/uploads/BurpSuiteProfessional.tar.gz'
 
 if [ -f "/opt/BurpSuiteProfessional.tar.gz" ]; then
     echo "[+] Downloaded successfully"
